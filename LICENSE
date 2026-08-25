@@ -1,0 +1,59 @@
+RemotePilot Proprietary Software License
+Version 1.0, August 2026
+
+Copyright (c) 2026 RemotePilot. All rights reserved.
+
+1. Proprietary software
+
+RemotePilot is proprietary, non-open-source software. Public access to this
+repository, its release metadata, or its downloadable binary files does not
+grant an open-source license or transfer any intellectual-property rights.
+
+2. Limited permission to use
+
+You may download, install, and use an official RemotePilot binary for personal
+or internal business use, subject to the product plan and purchase terms shown
+on https://remotepilot.site.
+
+3. Restrictions
+
+Except where applicable law expressly permits otherwise, you may not:
+
+- copy, modify, adapt, translate, or create derivative works of RemotePilot;
+- reverse engineer, decompile, disassemble, or attempt to derive its source code;
+- redistribute, sublicense, rent, lease, sell, host, mirror, or commercially
+  exploit the software or its release assets;
+- remove or alter copyright, trademark, license, or attribution notices; or
+- use RemotePilot or its assets to create or distribute a competing product.
+
+4. Updates and services
+
+Updates, account services, paid features, and online services may be changed,
+suspended, or discontinued. Access to paid functionality requires a valid
+entitlement associated with the applicable RemotePilot account or license.
+
+5. No warranty
+
+THE SOFTWARE IS PROVIDED "AS IS" AND "AS AVAILABLE", WITHOUT WARRANTIES OF
+ANY KIND, EXPRESS OR IMPLIED, INCLUDING MERCHANTABILITY, FITNESS FOR A
+PARTICULAR PURPOSE, AND NON-INFRINGEMENT, TO THE MAXIMUM EXTENT PERMITTED BY
+LAW.
+
+6. Limitation of liability
+
+TO THE MAXIMUM EXTENT PERMITTED BY LAW, THE COPYRIGHT HOLDER WILL NOT BE LIABLE
+FOR ANY INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, OR PUNITIVE DAMAGES, OR
+FOR LOSS OF DATA, PROFITS, REVENUE, OR BUSINESS, ARISING FROM THE USE OF OR
+INABILITY TO USE THE SOFTWARE.
+
+7. Termination
+
+This permission terminates automatically if you breach these terms. Upon
+termination, you must stop using RemotePilot and delete all copies in your
+possession or control.
+
+8. Contact
+
+For commercial distribution, integration, or other permissions not expressly
+granted here, contact the copyright holder through https://remotepilot.site.
+
