@@ -13,7 +13,7 @@ RemotePilot 是一款面向 macOS 的 **Apple TV 遥控器 / Siri Remote 控制�
 
 | 项目 | 说明 |
 | --- | --- |
-| 最新版本 | **RemotePilot 1.0.1** |
+| 最新版本 | **RemotePilot 1.0.5** |
 | 支持设备 | Apple TV Remote / Siri Remote A1962、A2540、A2854 |
 | 支持电脑 | Apple Silicon Mac（M1、M2、M3、M4 及后续芯片） |
 | 系统要求 | macOS 12 或更高版本 |
@@ -28,6 +28,12 @@ RemotePilot 是一款面向 macOS 的 **Apple TV 遥控器 / Siri Remote 控制�
 - **Typeless 模式**：通过 Siri 按键选择口述、翻译和提问，配合实时波形反馈。
 - **Vibe Coding 控制器**：在编程、AI 对话和 Vibecoding 场景中远程触发快捷键、滚动页面与输入语音。
 - **按 App 配置**：为浏览器、编辑器、播放器、演示软件和游戏设置不同映射。
+
+## RemotePilot 1.0.5 更新亮点
+
+- 正式新增 **A2540（第二代 Siri Remote）** 支持，覆盖设备识别、实体按键、Clickpad、环形滚动与遥控器语音。
+- 新增屏幕亮度增加/减少映射，并修复 App 专属配置下电源键偶尔执行全局映射的问题。
+- OTA 同时提供 GitHub Release 主下载与 Vercel Blob 备用下载；正式版仅提供 Apple Silicon（M 系列）安装包。
 
 ## 快速开始
 
