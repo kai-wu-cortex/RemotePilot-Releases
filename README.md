@@ -1,79 +1,80 @@
-# RemotePilot — 用 Apple TV 遥控器控制 Mac
+# RemotePilot — 用 Apple TV 遥控器或 iPhone 控制 Mac
 
-[![Latest Release](https://img.shields.io/github/v/release/kai-wu-cortex/RemotePilot-Releases?display_name=release&label=最新版本)](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest)
+[![Stable Release](https://img.shields.io/github/v/release/kai-wu-cortex/RemotePilot-Releases?label=Stable%20稳定版)](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest)
+[![Nightly Preview](https://img.shields.io/badge/Nightly-1.1.5--nightly.4-blue)](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.4)
 ![Platform](https://img.shields.io/badge/platform-macOS-000000?logo=apple)
 ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-M1%20及后续芯片-111111)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
 
-RemotePilot 是一款面向 macOS 的 **Apple TV 遥控器 / Siri Remote 控制工具**。它可以把 Apple TV Remote 变成 Mac 的无线触控板、滚轮、快捷键面板和语音输入设备，支持 Siri Remote **A1962、A2540、A2854** 等型号，适合日常办公、演示、媒体控制、游戏操作和 **Vibe Coding（Vibecoding）** 工作流。
+**RemotePilot** 把 Apple TV 遥控器 / Siri Remote（A1962、A2540、A2854）变成 Mac 的无线触控板、按键映射控制器和语音输入设备；配套 iPhone 客户端还能提供虚拟遥控器、触控板、Launcher 和游戏键盘。它适用于网页与文档浏览、演示、媒体控制、辅助输入，以及 Codex 等 AI 编程与 Vibe Coding 工作流。
 
-> 本仓库是 RemotePilot 的官方二进制发布与自动更新仓库，仅提供安装包、版本说明和 Sparkle 更新文件，不包含产品源代码。
+RemotePilot turns an Apple TV Siri Remote or iPhone into a trackpad, customizable shortcut controller, voice-input device, app launcher, and game keyboard for Mac.
 
-## 下载 RemotePilot
+> 本仓库是 RemotePilot 的官方 **macOS 二进制发布与 OTA 更新仓库**，提供安装包、版本说明和 Sparkle 更新文件，不包含产品源代码，也不提供 iOS 安装包。
 
-| 项目 | 说明 |
-| --- | --- |
-| 最新版本 | **RemotePilot 1.0.5** |
-| 支持设备 | Apple TV Remote / Siri Remote A1962、A2540、A2854 |
-| 支持电脑 | Apple Silicon Mac（M1、M2、M3、M4 及后续芯片） |
-| 系统要求 | macOS 12 或更高版本 |
-| 安装包 | [下载最新版 RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg) |
+## 下载与版本
 
-## RemotePilot 可以做什么
+| 通道 | 当前版本 | 下载与说明 |
+| --- | --- | --- |
+| Stable 稳定版 | **1.1.3** | [下载稳定版 RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg) · [查看版本页](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.3) |
+| Nightly 预览版 | **1.1.5-nightly.4** | [下载预览版 RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/download/v1.1.5-nightly.4/RemotePilot.dmg) · [查看更新内容](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.4) |
 
-- **遥控器变触控板**：使用 Siri Remote 的触控区域移动指针、点击和拖动。
-- **环形滚动与手势**：用遥控器快速浏览网页、文档、代码和时间线。
-- **按键映射**：把 Apple TV 遥控器按键映射为快捷键、系统操作或 App 专属指令。
-- **语音输入**：在 Mac 麦克风和专业版遥控器语音之间切换。
-- **Typeless 模式**：通过 Siri 按键选择口述、翻译和提问，配合实时波形反馈。
-- **Vibe Coding 控制器**：在编程、AI 对话和 Vibecoding 场景中远程触发快捷键、滚动页面与输入语音。
-- **按 App 配置**：为浏览器、编辑器、播放器、演示软件和游戏设置不同映射。
+支持 Apple Silicon Mac（M1 及后续芯片）和 macOS 12 或更高版本。Nightly 用于抢先体验与反馈，可能不如 Stable 稳定；它**不会替换**稳定版的 `releases/latest` 下载入口。
 
-## RemotePilot 1.0.5 更新亮点
+## Mac 端主要功能
 
-- 正式新增 **A2540（第二代 Siri Remote）** 支持，覆盖设备识别、实体按键、Clickpad、环形滚动与遥控器语音。
-- 新增屏幕亮度增加/减少映射，并修复 App 专属配置下电源键偶尔执行全局映射的问题。
-- OTA 同时提供 GitHub Release 主下载与 Vercel Blob 备用下载；正式版仅提供 Apple Silicon（M 系列）安装包。
+- **Siri Remote 触控板**：用遥控器触控面移动 Mac 指针，执行点击、拖动与滚动；支持 A1962、A2540、A2854 的设备差异设置。
+- **按键映射与快捷键**：把实体按键映射为键盘组合键、App 专属操作、系统与媒体控制，也可配置长按、双击和按住/松开行为。
+- **外圈三模式**：在模拟触控板滚动、切换应用和移动输入文字光标之间切换；菜单栏显示三点模式指示器，并可设置全局快捷键。
+- **虚拟九宫格键盘**：使用遥控器触控面输入字母、数字和标点，在不拿起实体键盘时完成短文本输入。
+- **语音输入与转写**：使用 Mac 或遥控器麦克风语音输入；RemotePilot 识别时显示实时转写胶囊，结束后尝试将结果送回原输入框。
+- **Typeless 与第三方输入法工作流**：将遥控器按键用于语音口述、提问、翻译或已安装输入法的快捷操作。实际可用性取决于 macOS 权限和输入法设置。
+- **状态与配置**：菜单栏查看遥控器连接、电量和当前模式；按应用保存映射，并可手动导入、导出配置。应用内更新安装前会自动备份当前映射。
+
+## 配套 iPhone 客户端能做什么
+
+iPhone 客户端与 Mac 端 RemotePilot 配对后，可作为另一种输入设备使用；**本仓库的 DMG 仅安装 Mac 端，不包含 iPhone App**。
+
+- **虚拟遥控器与触控板**：从 iPhone 发送遥控按键的按下/松开、指针移动、点击、拖动和连续滚动。
+- **iPhone 麦克风语音输入**：按住说话，将音频传给 Mac 识别，并在手机上查看实时状态、音量波形和转写文字。
+- **Launcher 与自定义 Deck**：查看从 Mac 同步的应用图标和运行状态，快速打开应用；将应用、常用操作和自定义快捷键编排成个人控制面板。
+- **游戏键盘**：横屏使用可编辑的按键、摇杆和滑杆布局，将游戏或创作软件所需的键盘操作发送给 Mac。
+- **Mac 控制栏**：从手机触发亮度、音量、媒体播放、Escape、调度中心等系统动作；它是操作面板，不是对 macOS 原生 Touch Bar 内容的镜像。
+- **配对与连接**：首次连接需在两端确认配对码；触控与按键通过低延迟蓝牙通道传输，语音可通过加密 Wi-Fi 传输并在网络异常时回退蓝牙。
+
+## 最新 Nightly：1.1.5-nightly.4
+
+2026 年 9 月 27 日的预览版新增外圈三模式与全局模式切换快捷键、向上/向下触控板滚动映射，并改进蓝牙耳机切换后的音量键映射保护、A2854 静音键及 macOS 27 的菜单栏与窗口行为。[阅读完整 Nightly 4 更新说明](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.4)。
+
+本次预览版仅发布 Mac 安装包；Stable 和官网正式版下载不变。Nightly 4 使用 Apple Development 签名且未公证，首次打开可能需要在“系统设置 → 隐私与安全性”中手动允许运行。
 
 ## 快速开始
 
-1. 下载最新版 [RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg)。
+1. 按需要下载 [Stable 稳定版](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg) 或 [Nightly 预览版](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/download/v1.1.5-nightly.4/RemotePilot.dmg)。
 2. 打开 DMG，将 RemotePilot 拖入“应用程序”文件夹。
-3. 按住 Siri Remote 的“返回键 + 音量加”约 5 秒进入蓝牙配对模式。
-4. 在 macOS 蓝牙设置中连接 Apple TV Remote。
-5. 按照应用内使用指南完成辅助功能、输入监控、蓝牙和麦克风权限设置。
+3. 在 macOS 蓝牙设置中配对 Siri Remote；不同型号的配对按键不同，请跟随应用内设备指南。
+4. 按应用指引授予辅助功能、输入监控、蓝牙及所需的麦克风权限，然后配置触控与按键映射。
+5. 如使用配套 iPhone 客户端，在两端核对配对码后连接同一台 Mac。
 
-当前 GitHub 版本未经过 Apple 公证。如 macOS 阻止首次打开，请前往“系统设置 → 隐私与安全性”，确认应用来源后选择“仍要打开”。
+实际功能可能因遥控器硬件、macOS 版本、输入法、音频输出设备和系统权限而异。
+
+## 自动更新与下载安全
+
+RemotePilot 使用 Sparkle 验证签名并安装更新。Stable 通道读取本仓库的 `releases/latest`；在 Mac App 中选择“预览版 Nightly”后，更新器会查找本仓库最新的 Nightly 预发布版本。请只从[官网](https://remotepilot.site)或本仓库下载发行版本。
 
 ## 官方链接
 
-- 官网：[remotepilot.site](https://remotepilot.site)
-- 使用指南：[remotepilot.site/#guide](https://remotepilot.site/#guide)
-- 最新版本：[GitHub Releases](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest)
-
-## 适用的 Siri Remote 型号
-
-RemotePilot 面向 Apple TV 遥控器用户，兼容并持续优化以下型号：
-
-- **A1962**：第一代 Siri Remote / Apple TV Remote。
-- **A2540**：第二代 Siri Remote / Apple TV Remote。
-- **A2854**：第三代 USB‑C Siri Remote / Apple TV Remote。
-
-实际功能会受到遥控器硬件能力、macOS 版本和系统权限影响。
+- [RemotePilot 官网](https://remotepilot.site)
+- [使用指南](https://remotepilot.site/#guide)
+- [Stable 与 Nightly 版本列表](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases)
 
 ## 关注小红书
 
-在小红书关注 **小吴折腾 AI**，获取 RemotePilot 使用技巧、Apple TV 遥控器玩法、Siri Remote 配置教程和 Vibe Coding 实践。
+关注 **小吴折腾 AI**，获取 Apple TV 遥控器连接教程、RemotePilot 使用技巧和 Vibe Coding 实践。小红书号：`63576874406`。
 
 <p align="center">
-  <img src="assets/xiaohongshu-qr.jpg" width="320" alt="小吴折腾AI 小红书二维码，RemotePilot 使用教程与 Vibe Coding 分享">
+  <img src="assets/xiaohongshu-qr.jpg" width="320" alt="小吴折腾 AI 的小红书二维码，分享 RemotePilot、Siri Remote 控制 Mac 和 Vibe Coding 教程">
 </p>
-
-小红书号：`63576874406`
-
-## 自动更新
-
-RemotePilot 使用 Sparkle 获取签名更新。应用会读取本仓库 Latest Release 中的 `appcast.xml`，并下载对应的 `RemotePilot.dmg`。请只从官网或本仓库下载发行版本。
 
 ## 软件许可
 
