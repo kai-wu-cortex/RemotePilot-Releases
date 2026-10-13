@@ -1,7 +1,7 @@
 # RemotePilot — 用 Apple TV 遥控器或 iPhone 控制 Mac
 
 [![Stable Release](https://img.shields.io/github/v/release/kai-wu-cortex/RemotePilot-Releases?label=Stable%20稳定版)](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest)
-[![Nightly Preview](https://img.shields.io/badge/Nightly-1.1.5--nightly.4-blue)](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.4)
+[![Nightly Preview](https://img.shields.io/badge/Nightly-1.1.5--nightly.6-blue)](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.6)
 ![Platform](https://img.shields.io/badge/platform-macOS-000000?logo=apple)
 ![Apple Silicon](https://img.shields.io/badge/Apple%20Silicon-M1%20及后续芯片-111111)
 ![License](https://img.shields.io/badge/license-Proprietary-red)
@@ -16,8 +16,8 @@ RemotePilot turns an Apple TV Siri Remote or iPhone into a trackpad, customizabl
 
 | 通道 | 当前版本 | 下载与说明 |
 | --- | --- | --- |
-| Stable 稳定版 | **1.1.3** | [下载稳定版 RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg) · [查看版本页](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.3) |
-| Nightly 预览版 | **1.1.5-nightly.4** | [下载预览版 RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/download/v1.1.5-nightly.4/RemotePilot.dmg) · [查看更新内容](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.4) |
+| Stable 稳定版 | **1.1.5** | [官网静态下载](https://remotepilot.site/download/RemotePilot-Apple-Silicon-v1.1.5.dmg) · [GitHub DMG](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg) · [更新说明](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5) |
+| Nightly 预览版 | **1.1.5-nightly.6** | [下载预览版 RemotePilot.dmg](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/download/v1.1.5-nightly.6/RemotePilot.dmg) · [查看更新内容](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.6) |
 
 支持 Apple Silicon Mac（M1 及后续芯片）和 macOS 12 或更高版本。Nightly 用于抢先体验与反馈，可能不如 Stable 稳定；它**不会替换**稳定版的 `releases/latest` 下载入口。
 
@@ -42,15 +42,15 @@ iPhone 客户端与 Mac 端 RemotePilot 配对后，可作为另一种输入设�
 - **Mac 控制栏**：从手机触发亮度、音量、媒体播放、Escape、调度中心等系统动作；它是操作面板，不是对 macOS 原生 Touch Bar 内容的镜像。
 - **配对与连接**：首次连接需在两端确认配对码；触控与按键通过低延迟蓝牙通道传输，语音可通过加密 Wi-Fi 传输并在网络异常时回退蓝牙。
 
-## 最新 Nightly：1.1.5-nightly.4
+## 最新 Stable：1.1.5
 
-2026 年 9 月 27 日的预览版新增外圈三模式与全局模式切换快捷键、向上/向下触控板滚动映射，并改进蓝牙耳机切换后的音量键映射保护、A2854 静音键及 macOS 27 的菜单栏与窗口行为。[阅读完整 Nightly 4 更新说明](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5-nightly.4)。
+2026 年 10 月 13 日的正式版汇集了 1.1.3 以来的虚拟九键、语音转写胶囊、外圈三模式、macOS 27 兼容及 iPhone 伴侣 Mac 端支持。更新内容在首次启动时按使用场景展示，也可从应用菜单重新打开。[阅读完整 1.1.5 更新说明](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/tag/v1.1.5)。
 
-本次预览版仅发布 Mac 安装包；Stable 和官网正式版下载不变。Nightly 4 使用 Apple Development 签名且未公证，首次打开可能需要在“系统设置 → 隐私与安全性”中手动允许运行。
+本次 DMG 只更新 Mac 端，iPhone 客户端需要单独安装。1.1.5 沿用 1.1.3 的 Apple Development 签名方式，尚未公证；首次打开时 macOS 可能要求在“系统设置 → 隐私与安全性”中手动允许运行。
 
 ## 快速开始
 
-1. 按需要下载 [Stable 稳定版](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/latest/download/RemotePilot.dmg) 或 [Nightly 预览版](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/download/v1.1.5-nightly.4/RemotePilot.dmg)。
+1. 按需要下载 [Stable 稳定版](https://remotepilot.site/download/RemotePilot-Apple-Silicon-v1.1.5.dmg) 或 [Nightly 预览版](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases/download/v1.1.5-nightly.6/RemotePilot.dmg)。
 2. 打开 DMG，将 RemotePilot 拖入“应用程序”文件夹。
 3. 在 macOS 蓝牙设置中配对 Siri Remote；不同型号的配对按键不同，请跟随应用内设备指南。
 4. 按应用指引授予辅助功能、输入监控、蓝牙及所需的麦克风权限，然后配置触控与按键映射。
