@@ -68,13 +68,16 @@ RemotePilot 使用 Sparkle 验证签名并安装更新。Stable 通道读取本�
 - [使用指南](https://remotepilot.site/#guide)
 - [Stable 与 Nightly 版本列表](https://github.com/kai-wu-cortex/RemotePilot-Releases/releases)
 
-## 关注小红书
+## 关注我
 
 关注 **小吴折腾 AI**，获取 Apple TV 遥控器连接教程、RemotePilot 使用技巧和 Vibe Coding 实践。小红书号：`63576874406`。
 
 <p align="center">
   <img src="assets/xiaohongshu-qr.jpg" width="320" alt="小吴折腾 AI 的小红书二维码，分享 RemotePilot、Siri Remote 控制 Mac 和 Vibe Coding 教程">
 </p>
+
+关注我的 X ：[@KYLEWUAi](https://x.com/kylewuai?s=11). 
+关注Telegram：https://t.me/+jyArFZVO1Rg1ZTU1
 
 ## 软件许可
 
